@@ -1,0 +1,44 @@
+﻿<Window x:Class="ToDoList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoList"
+        mc:Ignorable="d"
+        Title="Список дел" Height="570" Width="450" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" Background="LightSkyBlue" Icon="/Icon.png">
+    <StackPanel>
+        <Label Foreground="White" Content="Список дел: " HorizontalAlignment="Center" FontSize="28"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Label Content="Наименование: " FontSize="18" Background="LightSkyBlue" Foreground="White" Height="32" Margin="35 10 0 10"></Label>
+            <TextBox FontSize="20" Width="200" x:Name="TextBoxName" Margin="0 10 0 10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Иконка: " FontSize="18" Background="LightSkyBlue" Foreground="White" Height="32" Margin="35 0 52 0"></Label>
+            <ComboBox Width="200" FontSize="14" x:Name="ComboBoxIcon">
+                <TextBlock>По дому</TextBlock>
+                <TextBlock>Образование</TextBlock>
+                <TextBlock>Работа</TextBlock>
+                <TextBlock>Семья и друзья</TextBlock>
+            </ComboBox>
+        </StackPanel>
+        
+        <StackPanel>
+            <Button Content="Добавить" Width="85" Margin="15" Click="AddNewTaks"></Button>
+        </StackPanel>
+
+        <ListView x:Name="TaskLV" Margin="10" MaxHeight="320">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <TextBlock FontSize="20" Text="{Binding ID, StringFormat=Задача {0}}" Foreground="#FF020313"></TextBlock>
+                        <TextBlock Margin="5 0 0 0" FontSize="20" Text="{Binding Title}" Foreground="#FF020313"></TextBlock>
+                        <Image Margin="5 0 0 0" Source="{Binding Categories.ImageCategory}" Width="75" Height="50"></Image>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackPanel>
+</Window>
