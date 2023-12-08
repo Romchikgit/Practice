@@ -32,3 +32,10 @@ C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\obj\Debug\To
 C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\obj\Debug\ToDoList.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\obj\Debug\ToDoList.exe
 C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\obj\Debug\ToDoList.pdb
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\obj\Debug\ToDoList_Content.g.cs
+C:\Users\user\Desktop\Готовые работы по WPF\ToDoList\obj\Debug\ToDoList.csproj.CopyComplete

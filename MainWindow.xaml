@@ -29,7 +29,7 @@
             <Button Content="Добавить" Width="85" Margin="15" Click="AddNewTaks"></Button>
         </StackPanel>
 
-        <ListView x:Name="TaskLV" Margin="10" MaxHeight="320">
+        <ListView x:Name="YalanskyEntitiesListView" Margin="10" MaxHeight="320">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Margin="5">

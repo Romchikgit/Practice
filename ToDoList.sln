@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList.csproj", "{ECE6BF2F-9F2C-434F-9C36-02A2445B6B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практика4", "..\Practika4\Практика4.csproj", "{B5A5E3AC-58C6-4C5F-B965-BF36EA881E3E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{ECE6BF2F-9F2C-434F-9C36-02A2445B6B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECE6BF2F-9F2C-434F-9C36-02A2445B6B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECE6BF2F-9F2C-434F-9C36-02A2445B6B11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5A5E3AC-58C6-4C5F-B965-BF36EA881E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5A5E3AC-58C6-4C5F-B965-BF36EA881E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5A5E3AC-58C6-4C5F-B965-BF36EA881E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5A5E3AC-58C6-4C5F-B965-BF36EA881E3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
